@@ -1,0 +1,71 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #DAE2B7;
+}
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 500px;
+}
+
+.conten{
+    margin: 8px;
+}
+
+#pertanyaan{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#loading{
+    display: none;
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    border-top: 8px solid blueviolet;
+    border-radius: 50%;
+    top: 50%;
+    right: 50%;
+    z-index: inherit;
+}
+
+
+input{
+    border: none;
+    color: black;
+    background-color: #eaeaeaae;
+    padding: 18px;
+    margin-top: 8px;
+    font-size: 17px;
+    max-width: 300px;
+    font-weight: 500;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+button{
+    border: none;
+    background: #62B6B7;
+    font-size: 24px;
+    padding: 16px;
+    margin-left: 11px;
+    height: 55px;
+    font-weight: 600;
+    margin-top: 10px;   
+}
